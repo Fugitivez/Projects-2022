@@ -1,0 +1,318 @@
+.container{
+    width: 860px;
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Outfit', sans-serif;
+}
+
+.label{
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    display: inline-flex;
+ }
+ .pos-size, .win-size, .loss-size{
+    width: 115px;
+    padding: 10px;
+    border-top: 1px solid rgba(128, 128, 128, 0.347);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.347)
+ }
+.team-size{
+    width: 315px;
+    padding: 10px;
+    border-top: 1px solid rgba(128, 128, 128, 0.347);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.347)
+ }
+ 
+.name-size{
+    width: 200px;
+    padding: 10px;
+    border-top: 1px solid rgba(128, 128, 128, 0.347);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.347)
+}
+
+.first-place{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    display: inline-flex;
+}
+.first-place:hover{
+    background-color: rgba(153, 0, 255, 0.101);
+    cursor: pointer;
+}
+
+.first-pos, .first-wins, .first-losses, .second-pos, .second-wins, .second-losses, .third-pos, .third-wins, .third-losses, .fourth-pos,
+.fourth-wins, .fourth-losses{
+    width: 115px;
+    padding: 4px;
+    text-align:center;
+}
+
+.first-team{
+    width: 315px;
+    padding: 4px;
+}
+
+.first-name{
+    width: 200px;
+    padding: 4px;
+    text-align: left;
+}
+
+.second-place, .third-place, .fourth-place, .fifth-place, .sixth-place, .seventh-place, .eighth-place, .nineth-place, .tenth-place{
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    display: inline-flex;
+    border-top: 1px solid rgba(128, 128, 128, 0.347);
+}
+
+.second-place:hover{
+    background-color: rgba(153, 0, 255, 0.101);
+    cursor: pointer;
+}
+
+.second-team{
+    width: 315px;
+    padding: 4px;
+}
+
+.second-name{
+    width: 200px;
+    padding: 4px;
+    text-align: left;
+}
+
+.third-place:hover{
+    background-color: rgba(153, 0, 255, 0.101);
+    cursor: pointer;
+}
+.third-team{
+    width: 315px;
+    padding: 4px;
+}
+
+.third-name{
+    width: 200px;
+    padding: 4px;
+    text-align: left;
+}
+
+.fourth-place:hover{
+    background-color: rgba(153, 0, 255, 0.101);
+    cursor: pointer;
+}
+
+.fourth-team{
+    width: 315px;
+    padding: 4px;
+}
+
+.fourth-name{
+    width: 200px;
+    padding: 4px;
+    text-align: left;
+}
+
+.fifth-place:hover{
+    background-color: rgba(153, 0, 255, 0.101);
+    cursor: pointer;
+}
+.fifth-pos{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.fifth-team{
+    width: 315px;
+    padding: 4px;
+}
+
+.fifth-name{
+    width: 200px;
+    padding: 4px;
+    text-align: left;
+}
+
+.fifth-wins{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.fifth-losses{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.sixth-place:hover{
+    background-color: rgba(153, 0, 255, 0.101);
+    cursor: pointer;
+}
+.sixth-pos{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.sixth-team{
+    width: 315px;
+    padding: 4px;
+}
+
+.sixth-name{
+    width: 200px;
+    padding: 4px;
+    text-align: left;
+}
+
+.sixth-wins{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.sixth-losses{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.seventh-place:hover{
+    background-color: rgba(153, 0, 255, 0.101);
+    cursor: pointer;
+}
+.seventh-pos{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.seventh-team{
+    width: 315px;
+    padding: 4px;
+}
+
+.seventh-name{
+    width: 200px;
+    padding: 4px;
+    text-align: left;
+}
+
+.seventh-wins{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.seventh-losses{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.eighth-place:hover{
+    background-color: rgba(153, 0, 255, 0.101);
+    cursor: pointer;
+}
+
+.eighth-pos{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.eighth-team{
+    width: 315px;
+    padding: 4px;
+}
+
+.eighth-name{
+    width: 200px;
+    padding: 4px;
+    text-align: left;
+}
+
+.eighth-wins{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.eighth-losses{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.nineth-place:hover{
+    background-color: rgba(153, 0, 255, 0.101);
+    cursor: pointer;
+}
+
+.nineth-pos{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.nineth-team{
+    width: 315px;
+    padding: 4px;
+}
+
+.nineth-name{
+    width: 200px;
+    padding: 4px;
+    text-align: left;
+}
+
+.nineth-wins{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.nineth-losses{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.tenth-place:hover{
+    background-color: rgba(153, 0, 255, 0.101);
+    cursor: pointer;
+}
+
+.tenth-pos{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.tenth-team{
+    width: 315px;
+    padding: 4px;
+}
+
+.tenth-name{
+    width: 200px;
+    padding: 4px;
+    text-align: left;
+}
+
+.tenth-wins{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
+
+.tenth-losses{
+    width: 115px;
+    padding: 4px;
+    text-align: center;
+}
